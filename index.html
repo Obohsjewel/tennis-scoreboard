@@ -1,0 +1,113 @@
+<!-- <html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       
+        <div class="container">
+            <div class= "home-section">
+                <h3 id="home-name">HOME</h3>
+               <div class="home-score">
+                   <h1 id="the-home">0</h1>
+               </div>
+                <button  id = "plusone-btn-home" onclick="plusonehome()">+1</button>
+                <button id = "plustwo-btn-home" onclick="plustwohome()">+2</button>
+                <button id = "plusthree-btn-home" onclick="plusthreehome()">+3</button>
+        </div>
+            
+         <div class="guest-section">
+             <h3 id="guest-name">GUEST</h3>
+             <div class="guest-score">
+                <h1 id= "the-guest">0</h1>
+             </div>   
+                <button id = "plusone-btn-guest" onclick="plusoneguest()">+1</button>
+                <button id="plustwo-btn-guest" onclick="plustwoguest()">+2</button>
+                <button id = "plusthree-btn-guest" onclick="plusthreeguest()">+3</button>
+            </div>
+        </div>
+        <!-- <script src="index.js"></script>
+    </body>
+</html>  -->
+<!DOCTYPE HTML>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css"> 
+    </head>
+    <body>
+         <h1>A Tennis Scoreboard</h1>
+<div class = "container">    
+    <div class="player1-section">
+       <h2 id="playerone-name"> Player 1 </h2>
+       <div class="player1-scoreboard"> 
+            <h3 id = "player-one-score">0</h3>
+       </div>
+        <button  onclick="plustwoplayerone()">+2</button>
+        <button onclick="plusfourplayerone()">+4</button>
+        <button onclick="pluseightplayerone()">+8</button>
+        <button onclick="plustenplayerone()">+10</button>
+        <div>
+        <button id = "saveplayerone" onclick= "saveone()">save:</button>
+        </div>
+    </div>
+    
+      
+      <div class="player2-section">
+        <h2> Player 2 </h2>
+         <div class="player2-scoreboard">
+             <h3 id = "player-two-score">0</h3>
+         </div>
+        <button onclick="plustwoplayertwo()">+2</button>
+        <button onclick="plusfourplayertwo()">+4</button>
+        <button onclick="pluseightplayertwo()">+8</button>
+        <button onclick="plustenplayertwo()">+10</button>
+        <div>
+        <button id = "saveplayertwo" onclick= "savetwo()">save:</button>
+        </div>
+
+      </div>
+      
+        
+      <div class="player3-section">
+        <h2> Player 3 </h2>
+        <div class="player3-scoreboard">
+           <h3 id = "player-three-score">0</h3>
+        </div>
+        <button onclick="plustwoplayerthree()">+2</button>
+        <button onclick="plusfourplayerthree()">+4</button>
+        <button onclick="pluseightplayerthree()">+8</button>
+        <button onclick="plustenplayerthree()">+10</button>
+        <div>
+        <button id = "saveplayerthree" onclick= "savethree()">save:</button>
+        </div>
+
+     </div>
+     
+     <div class="player4-section">
+        <h2> Player 4 </h2>
+        <div class="player4-scoreboard">
+           <h3 id = "player-four-score">0</h3>
+        </div>
+        <button onclick="plustwoplayerfour()">+2</button>
+        <button onclick="plusfourplayerfour()">+4</button>
+        <button onclick="pluseightplayerfour()">+8</button>
+        <button onclick="plustenplayerfour()">+10</button>
+        <div>
+        <button id = "saveplayerfour" onclick= "savefour()">save:</button>
+        </div>
+     </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
+    
+    
+ 
+
+
+
+
+
+
+
+
+

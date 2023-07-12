@@ -1,0 +1,144 @@
+/* body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    color: white;
+    font-size:25px;
+    
+}
+
+h1{
+    background-color: black;
+    width:120px;
+    height:80px;
+    color:#F94F6D;
+    text-align: center;
+    font-size: 70px;
+    
+}
+
+button{
+    border: 2px solid #9AABD8;
+    background-color: #1B244A;
+    color:#9AABD8;
+    border-radius: 5px;
+    
+    
+} */
+
+body{
+    text-align: center;
+    background-color: #b3c7f7;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    color:#054fb9;
+}
+
+h2{
+    color:#0461cf;
+}
+
+h3{
+    color:#0073e6;
+    font-size:25px
+}
+
+.player1-scoreboard{
+    background-color: mistyrose;
+    width:70px;
+    padding-top:0;
+    padding-bottom:15px;
+    padding-left:2px;
+    padding-right:2px;
+    margin-bottom: 10px;
+    border:2px solid burlywood;
+    border-radius:6px;
+    height: 60px;
+    
+}
+
+.player2-scoreboard{
+background-color: mistyrose;
+    width:70px;
+    padding-top:0;
+    padding-bottom:15px;
+    padding-left:2px;
+    padding-right:2px;
+    margin-bottom: 10px;
+    border:2px solid burlywood;
+    border-radius:6px;
+    height: 60px;  
+}
+
+.player3-scoreboard{
+    background-color: mistyrose;
+    width:70px;
+    padding-top:0;
+    padding-bottom:15px;
+    padding-left:2px;
+    padding-right:2px;
+    margin-bottom: 10px;
+    border:2px solid burlywood;
+    border-radius:6px;
+    height: 60px;
+}
+  .player4-scoreboard{
+    background-color: mistyrose;
+    width:70px;
+    padding-top:0;
+    padding-bottom:15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 10px;
+    border:2px solid burlywood;
+    border-radius:6px;
+    height: 60px;
+}
+
+button{
+    border:2px solid #0073e6;
+    border-radius:5px;
+    background-color: sandybrown;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
